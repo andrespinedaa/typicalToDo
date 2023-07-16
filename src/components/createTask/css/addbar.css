@@ -7,7 +7,7 @@
     align-items: flex-start;
     justify-content: center;
     gap: 10px;
-    border: var(--border-task);
+    border: 1px solid var(--border-task);
     border-radius: 15px;
     box-shadow: 5px 15px 15px 0 rgba(0, 0, 0, 0.2);
 }

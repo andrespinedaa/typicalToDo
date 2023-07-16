@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 
 import { TaskContext } from "../../contexts/taskContext/TaskContext";
 import Fields from "./Fields";
-import "./css/addBar.css";
+import "./css/addbar.css";
 
 function CreateTask() {
 	const { dispatch } = useContext(TaskContext);
