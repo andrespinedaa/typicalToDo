@@ -1,0 +1,8 @@
+.listTasks{
+    width: 70%;
+    height: 100%;
+}
+.listTasks__information{
+    display: flex;
+    gap: 10px;
+}

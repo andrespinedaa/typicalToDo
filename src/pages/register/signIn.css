@@ -1,0 +1,11 @@
+.form__signIn{
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.form__signIn--field{
+    border: none;
+}

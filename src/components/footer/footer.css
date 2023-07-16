@@ -1,0 +1,12 @@
+.footer{
+    /* position: fixed;
+    bottom: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__navbar--menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}

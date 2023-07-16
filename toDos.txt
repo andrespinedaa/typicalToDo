@@ -1,0 +1,10 @@
+1. Agregar amigos.
+2. Hacer invitaciones.
+3. Hacer horarios.
+4. Poder hacerlo grande y pequeño.
+5. hacer workSpaces.
+6. hacer un eliminar todas.
+7. hacer un drag and drop.
+8. hacerlo responsive.
+9. validar en bases de datos.
+10. diseñar base de datos.

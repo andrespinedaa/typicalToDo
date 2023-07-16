@@ -1,0 +1,11 @@
+.themeButtons{
+    display: flex;
+}
+.invisible{
+    display: none;
+    cursor: pointer;
+}
+.visible{
+    display: block;
+    cursor: pointer;
+}
