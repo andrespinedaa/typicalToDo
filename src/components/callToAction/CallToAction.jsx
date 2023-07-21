@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./css/callToAction.css";
 
 function CallToAction({ info, children }) {
@@ -6,10 +7,10 @@ function CallToAction({ info, children }) {
 		<section className="call-to-action">
 			<article className="call-to-action__information">
 				<hgroup className="call-to-action__information--text">
-					{title}
-					{description}
+					<h2>{title}</h2>
+					<p>{description}</p>
 				</hgroup>
-				<button>{buttonText}</button>
+				<button><Link to={"/register"}></Link>{buttonText}</button>
 			</article>
 			<figure className="call-to-action__image">{children}</figure>
 		</section>
