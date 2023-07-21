@@ -1,11 +1,26 @@
+import { useState } from "react";
+
 import { Link } from "react-router-dom";
+import { RxHamburgerMenu } from "react-icons/rx";
 import ThemeButton from "../themebutton/ThemeButton";
 import "./header.css";
 
 function Header() {
+	const [open, setOpen] = useState(false);
+
+	const handleBurgerMenu = () => {
+		setOpen(!open);
+	};
+
 	return (
 		<header className="header">
-			<nav className="header__navbar">
+			<RxHamburgerMenu
+				className={"burgerMenu"}
+				size={"30px"}
+				onClick={() => handleBurgerMenu()}
+			/>
+			<nav className={"header__navbar " + (open ? "open" : "close")}>
+			<ThemeButton />
 				<ul className="header__navbar--menu">
 					<li className="header__navbar--item">
 						<Link to={"/"} className="header__navbar--link">
@@ -36,7 +51,6 @@ function Header() {
 					</button>
 				</div>
 			</nav>
-			<ThemeButton />
 		</header>
 	);
 }
