@@ -10,7 +10,9 @@ function CallToAction({ info, children }) {
 					<h2>{title}</h2>
 					<p>{description}</p>
 				</hgroup>
-				<button><Link to={"/register"}></Link>{buttonText}</button>
+				<button>
+					<Link to={"/register"}>{buttonText}</Link>
+				</button>
 			</article>
 			<figure className="call-to-action__image">{children}</figure>
 		</section>
